@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tips 测试</title>
+    <script src="./../../lib/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <button id="btn">点击弹框</button>
+
+    <script src="./index.js"></script>
+    <script>
+        $('#btn').on('click', function () {
+            new Tips({
+                text : '你特么的输入正确的电话啊',
+                type : 'error'
+            });
+        })
+    </script>
+</body>
+</html>
