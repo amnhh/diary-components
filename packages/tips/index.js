@@ -32,7 +32,6 @@
      * 初始化
      */
     Tips.prototype._init = function () {
-        var me = this;
         this.$el = $(this.getTipsTmp()); 
         this.setTipsStyle();
         $(document.body).append(this.$el);
